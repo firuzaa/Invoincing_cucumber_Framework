@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2201847714,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "login as a manager",
+        "description": "",
+        "id": "sample;login-as-a-manager;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 88180927,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7493036649,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login as a manager using \"Lunch_InvoicingManager@info.com\" and \"LD686gfX22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lunch_InvoicingManager@info.com\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"LD686gfX22\"",
+                  "offset": 68
+                }
+              ],
+              "location": "LoginPageStepDef.user_login_as_a_manager_using_and(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Sample",
+    "description": "",
+    "id": "sample",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/invoicing.feature",
+    "tags": []
+  }
+]
